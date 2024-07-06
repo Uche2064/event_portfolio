@@ -1,5 +1,4 @@
 import 'package:event_portfolio/src/constants/e_colors.dart';
-import 'package:event_portfolio/src/constants/e_values.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -20,7 +19,7 @@ class TopmenuWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Expanded(
-                      child: Text(EValues.aPartirDe + ":"),
+                      child: Text("A partir de:"),
                     ),
                     Expanded(
                         child: FittedBox(
@@ -53,7 +52,7 @@ class TopmenuWidget extends StatelessWidget {
                   ),
                   child: FittedBox(
                     child: Text(
-                      EValues.jAcheterMaintenant,
+                      "J'achète maintenant",
                       style: GoogleFonts.poppins(color: Colors.white),
                     ),
                   ),
